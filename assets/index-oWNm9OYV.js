@@ -347,7 +347,7 @@ table {
   text-align: center;
 `,Q1=te.div`
   width: 100%;
-`,Y1=()=>{const e=Ms(),t=Ls(),n=t.state.cardFirstFourDigits,r=t.state.cardCompany,o=()=>{e("/new-card")};return M.jsxs(V1,{children:[M.jsx("div",{children:M.jsx(W1,{src:H1,alt:""})}),M.jsxs(X1,{children:[M.jsxs(zf,{children:[n,"로 시작하는"]}),M.jsxs(zf,{children:[r,"가 등록되었어요."]})]}),M.jsx(Q1,{children:M.jsx(Is,{onClick:o,text:"확인",style:{borderRadius:8}})})]})};function G1(){return M.jsx(M.Fragment,{children:M.jsx(Uy,{})})}const K1=te.div`
+`,Y1=()=>{const e=Ms(),t=Ls(),n=t.state.cardFirstFourDigits,r=t.state.cardCompany,o=()=>{e("/")};return M.jsxs(V1,{children:[M.jsx("div",{children:M.jsx(W1,{src:H1,alt:""})}),M.jsxs(X1,{children:[M.jsxs(zf,{children:[n,"로 시작하는"]}),M.jsxs(zf,{children:[r,"가 등록되었어요."]})]}),M.jsx(Q1,{children:M.jsx(Is,{onClick:o,text:"확인",style:{borderRadius:8}})})]})};function G1(){return M.jsx(M.Fragment,{children:M.jsx(Uy,{})})}const K1=te.div`
   width: 100%;
   height: 100vh;
   display: flex;
@@ -359,4 +359,4 @@ table {
   width: 300px;
 `,Z1=te.span`
   font-size: 25px;
-`,q1="/react-payments/assets/planet-CJk4xH6r.png",b1=()=>{const e=Ms(),t=()=>{e("/new-card")};return M.jsxs(K1,{children:[M.jsx(J1,{src:q1,alt:""}),M.jsx(Z1,{children:"페이지를 찾을 수 없어요 🥺"}),M.jsx(Is,{text:"홈으로 이동하기",onClick:t,style:{width:140,borderRadius:8}})]})},ew=Vy([{path:"/",element:M.jsx(G1,{}),errorElement:M.jsx(b1,{}),children:[{path:"new-card",element:M.jsx($1,{})},{path:"registration-complete",element:M.jsx(Y1,{})}]}],{basename:"/react-payments/"});ya.createRoot(document.getElementById("root")).render(M.jsxs(Nt.StrictMode,{children:[M.jsx(T0,{}),M.jsx(qy,{router:ew})]}));
+`,q1="/react-payments/assets/planet-CJk4xH6r.png",b1=()=>{const e=Ms(),t=()=>{e("/")};return M.jsxs(K1,{children:[M.jsx(J1,{src:q1,alt:""}),M.jsx(Z1,{children:"페이지를 찾을 수 없어요 🥺"}),M.jsx(Is,{text:"홈으로 이동하기",onClick:t,style:{width:140,borderRadius:8}})]})},ew=Vy([{path:"/",element:M.jsx(G1,{}),errorElement:M.jsx(b1,{}),children:[{index:!0,element:M.jsx($1,{})},{path:"registration-complete",element:M.jsx(Y1,{})}]}],{basename:"/react-payments/"});ya.createRoot(document.getElementById("root")).render(M.jsxs(Nt.StrictMode,{children:[M.jsx(T0,{}),M.jsx(qy,{router:ew})]}));
